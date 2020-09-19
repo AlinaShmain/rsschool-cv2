@@ -1,0 +1,247 @@
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  font-family: "glyphicons";
+  src: url("../fonts/GlyphiconsHalflingsRegular/glyphicons-halflings-regular.eot");
+  src: url("../fonts/GlyphiconsHalflingsRegular/glyphicons-halflings-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/GlyphiconsHalflingsRegular/glyphicons-halflings-regular.woff")
+      format("woff"),
+    url("../fonts/GlyphiconsHalflingsRegular/glyphicons-halflings-regular.ttf")
+      format("truetype");
+}
+
+html {
+  background-color: rgb(228,228,228);
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  width: 70%;
+  font-size: 1em;
+  font-family: "glyphicons";
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  background-color: #fff;
+}
+
+.top-line {
+  width: 100%;
+  height: 1em;
+  background-color: rgba(130,65,102,.8);
+}
+
+.info-table {
+  width: 100%;
+  height: 90%;
+  background-color: #fff;
+}
+
+.info-table #title-photo {
+  margin: 1em 0 1em 4em;
+}
+
+img {
+  border: 1px solid #c8c8c6;
+  padding: .7em;
+}
+
+#title-name h1 {
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 2em;
+}
+
+#title-name h1 .line-center {
+  left: -13px;
+  width: 100px;
+  height: 3px;
+  background-color: rgba(130,65,102,.8);
+  border: 0;
+}
+
+#title-name p {
+  left: -5px;
+  line-height: 2em;
+  letter-spacing: 5px;
+  margin: 0 0 5px;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.contact {
+  margin-top: 10px;
+}
+
+.contact div {
+  line-height: 2em;
+}
+
+.contact .fas {
+  color: rgba(130,65,102,.8);
+  margin-right: 10px;
+}
+
+.menu {
+  height: 10%;
+  margin-left: 4em;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li.left {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+ul li.right {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.menu li a {
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #000;
+  transition: color .25s ease;
+}
+
+.menu li a:hover,
+.src-link a:hover {
+  color: #c8c8c6;
+}
+
+.fa-github::before,
+.fa-bitbucket::before {
+  font-size: 15px;
+  color: rgba(130,65,102,.8);
+  margin-right: 8px;
+}
+
+.objectives {
+  text-align: left;
+  margin-left: 2em;
+}
+
+.skills-section,
+.skills {
+  display: inline-block;
+}
+
+h3 {
+  top: 26px;
+  width: 230px;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 1px;
+  margin: 0 0 20px 0;
+  padding: 2px 30px 2px 20px;
+  box-shadow: .2em .2em 5px rgba(122,122,122,.4);
+}
+
+.skills h3 {
+  background-color: rgba(130,65,102,.8);
+}
+
+.skills div {
+  float: left;
+  width: 45%;
+  margin: 0 20px;
+}
+
+.programming-languages {
+  margin: 20px;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+h4 span {
+  font-weight: 100;
+  font-size: 15px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.underlined {
+  border-bottom: 3px dashed #c8c8c6;
+}
+
+.experience h3 {
+  background-color: rgba(193,140,170,.8);
+}
+
+.experience p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.experience ul {
+  margin-bottom: 20px;
+}
+
+.section-details {
+  margin: 0 20px 20px 20px;
+}
+
+.section-details:last-child {
+  margin-bottom: 0;
+}
+
+.src-link {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-top: .7em;
+}
+
+.src-link a {
+  color: rgba(121,45,88,.8);
+}
+
+.project-desc li:first-child {
+  padding-bottom: .7em;
+}
+
+.education h3 {
+  background-color: rgba(98,61,82,.8);
+}
+
+.languages h3 {
+  background-color: rgba(138,81,114,.8);
+}
